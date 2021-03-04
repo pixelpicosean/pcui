@@ -32,6 +32,12 @@ import GridView from './components/GridView';
 import GridViewItem from './components/GridViewItem';
 import VectorInput from './components/VectorInput';
 
+import Canvas from './pcui/element/element-canvas';
+import CurveInput from './pcui/element/element-curve-input';
+import Table from './pcui/element/element-table';
+import Tooltip from './pcui/element/element-tooltip';
+import TooltipGroup from './pcui/element/element-tooltip-group';
+
 // import pcui-hidden last
 import './scss/_pcui-hidden.scss';
 
@@ -67,5 +73,11 @@ export {
     TreeViewItem,
     GridView,
     GridViewItem,
-    VectorInput
+    VectorInput,
+
+    Canvas,
+    CurveInput,
+    Table,
+    Tooltip,
+    TooltipGroup,
 };
